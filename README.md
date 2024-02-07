@@ -33,8 +33,4 @@ The Corporate Asset Tracking System is a web application built with Django that 
 - Django
 - Django REST Framework
 
-### Installation Package
-You can install the Corporate Asset Tracking System from the Python Package Index (PyPI) using pip:
 
-```bash
-pip install corporate-asset-tracking-system

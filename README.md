@@ -28,6 +28,8 @@ The Corporate Asset Tracking System is a web application built with Django that 
 
 ## Installation and Setup
 
+``` From venv just activate virtualenv then enjoy app ```
+
 ### Requirements
 - Python 3.x
 - Django

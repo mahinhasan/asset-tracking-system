@@ -1,0 +1,6 @@
+<h1>Checkout List</h1>
+<ul>
+{% for checkout in checkouts %}
+    <li><a href="{% url 'checkout_detail' checkout.id %}">{{ checkout.employee.name }} - {{ checkout.device.name }}</a></li>
+{% endfor %}
+</ul>

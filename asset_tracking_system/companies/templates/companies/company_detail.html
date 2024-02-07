@@ -1,0 +1,8 @@
+<h1>{{ company.name }}</h1>
+<p><strong>Address:</strong> {{ company.address }}</p>
+<h2>Employees</h2>
+<ul>
+{% for employee in company.employees.all %}
+    <li>{{ employee.name }} - {{ employee.email }}</li>
+{% endfor %}
+</ul>

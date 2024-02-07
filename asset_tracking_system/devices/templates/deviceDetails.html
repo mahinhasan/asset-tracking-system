@@ -1,0 +1,9 @@
+
+<h1>{{ device.name }}</h1>
+<p><strong>Serial Number:</strong> {{ device.serial_number }}</p>
+<h2>Logs</h2>
+<ul>
+{% for log in device.logs.all %}
+    <li>{{ log.event_type }} - {{ log.event_date }} - Condition: {{ log.condition }}</li>
+{% endfor %}
+</ul>
